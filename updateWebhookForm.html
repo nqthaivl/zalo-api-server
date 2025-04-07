@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Cập nhật Webhook URL</title>
+  <!-- Font Awesome để thêm icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #f0f2f5;
+    }
+    .form-container {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 500px;
+    }
+    h2 {
+      color: #2c3e50;
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 24px;
+    }
+    .form-group {
+      margin-bottom: 20px;
+      position: relative;
+    }
+    label {
+      display: block;
+      font-weight: bold;
+      color: #34495e;
+      margin-bottom: 5px;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 12px 12px 12px 40px; /* Padding trái lớn hơn để chừa chỗ cho icon */
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 14px;
+      box-sizing: border-box;
+      transition: border-color 0.3s;
+    }
+    input[type="text"]:focus {
+      border-color: #3498db;
+      outline: none;
+    }
+    input[type="text"]::placeholder {
+      color: #95a5a6;
+    }
+    .form-group i {
+      position: absolute;
+      left: 12px;
+      top: 38px; /* Căn chỉnh icon với input */
+      color: #7f8c8d;
+      font-size: 16px;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #2980b9;
+    }
+    button i {
+      margin-right: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Cập nhật Webhook URL</h2>
+    <form action="/updateWebhook" method="post">
+      <div class="form-group">
+        <label for="messageWebhookUrl">Message Webhook URL:</label>
+        <i class="fas fa-comment"></i>
+        <input type="text" id="messageWebhookUrl" name="messageWebhookUrl" placeholder="https://example.com/webhook-message" required>
+      </div>
+      <div class="form-group">
+        <label for="groupEventWebhookUrl">Group Event Webhook URL:</label>
+        <i class="fas fa-users"></i>
+        <input type="text" id="groupEventWebhookUrl" name="groupEventWebhookUrl" placeholder="https://example.com/webhook-group-event" required>
+      </div>
+      <div class="form-group">
+        <label for="reactionWebhookUrl">Reaction Webhook URL:</label>
+        <i class="fas fa-heart"></i>
+        <input type="text" id="reactionWebhookUrl" name="reactionWebhookUrl" placeholder="https://example.com/webhook-reaction" required>
+      </div>
+      <button type="submit"><i class="fas fa-save"></i> Cập nhật</button>
+    </form>
+  </div>
+</body>
+</html>
