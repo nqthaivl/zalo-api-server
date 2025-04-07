@@ -34,6 +34,3 @@ B- SỬ DỤNG
 4. Dùng Zalo quét mã QR hiện ra để đăng nhập
 5. Sau khi đăng nhập thành công, mọi sự kiện sẽ được đẩy về Webhook
 6. Đọc tài liệu API để biết cách gửi Message, Photo, Sticker,...
-
-Credit: Cang Pham | https://www.facebook.com/share/p/1ADmjWHWE7/
-Modified: TienTa
