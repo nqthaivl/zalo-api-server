@@ -34,5 +34,10 @@ B- SỬ DỤNG
 4. Dùng Zalo quét mã QR hiện ra để đăng nhập
 5. Sau khi đăng nhập thành công, mọi sự kiện sẽ được đẩy về Webhook
 6. Đọc tài liệu API để biết cách gửi Message, Photo, Sticker,...
+
+7. Đổi pass mặc định trong file routes-ui.js:
+```CLI
+User:admin / Pass: 123456 / 
+```
 ![Image](https://github.com/user-attachments/assets/ab3eb30e-681a-4c7f-a199-148f62b5eae9)
 ![Image](https://github.com/user-attachments/assets/088f579d-9655-4bf0-9ed1-80184bb400c0)
