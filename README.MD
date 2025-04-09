@@ -40,4 +40,4 @@ B- SỬ DỤNG
 User:admin / Pass: 123456 / 
 ```
 ![Image](https://github.com/user-attachments/assets/ab3eb30e-681a-4c7f-a199-148f62b5eae9)
-![Image](https://github.com/user-attachments/assets/088f579d-9655-4bf0-9ed1-80184bb400c0)
+![Image](https://github.com/user-attachments/assets/f448ae38-c17a-4263-b121-e878b922309e)
