@@ -8,9 +8,9 @@ Lưu ý: việc sử dụng thư viện này đồng nghĩa với việc bạn �
 
 A- CÀI ĐẶT
 
-1. Tải toàn bộ mã nguồn về để trong thư mục (multizlogin)
+1. Tải toàn bộ mã nguồn về để trong thư mục (zalo-api-server)
 
-2. Mở Terminal tại thư mục (multizlogin) và chạy lệnh:
+2. Mở Terminal tại thư mục (zalo-api-server) và chạy lệnh:
 ```CLI
 docker build -t zalo-server .
 ```
