@@ -14,6 +14,7 @@ A- CÀI ĐẶT
 ```CLI
 Đổi pass mặc định trong file routes-ui.js
 User:admin / Pass: 123456 / 
+chạy lệnh sau để build
 docker build -t zalo-server .
 ```
 3. Sau khi build xong, bạn có thể chạy container bằng lệnh:
@@ -37,9 +38,5 @@ B- SỬ DỤNG
 5. Sau khi đăng nhập thành công, mọi sự kiện sẽ được đẩy về Webhook
 6. Đọc tài liệu API để biết cách gửi Message, Photo, Sticker,...
 
-7. Đổi pass mặc định trong file routes-ui.js:
-```CLI
-User:admin / Pass: 123456 / 
-```
 ![Image](https://github.com/user-attachments/assets/ab3eb30e-681a-4c7f-a199-148f62b5eae9)
 ![Image](https://github.com/user-attachments/assets/f448ae38-c17a-4263-b121-e878b922309e)
