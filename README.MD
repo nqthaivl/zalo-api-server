@@ -12,6 +12,8 @@ A- CÀI ĐẶT
 
 2. Mở Terminal tại thư mục (zalo-api-server) và chạy lệnh:
 ```CLI
+Đổi pass mặc định trong file routes-ui.js
+User:admin / Pass: 123456 / 
 docker build -t zalo-server .
 ```
 3. Sau khi build xong, bạn có thể chạy container bằng lệnh:
